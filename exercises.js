@@ -35,6 +35,7 @@ function canVote(age){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(canVote(19));
@@ -57,6 +58,7 @@ function login(password){
   } else {
     food = "login unsuccessful.";
   }
+  return food;
 }
 
 console.log(login('test1234'));
@@ -80,6 +82,7 @@ function isGreaterThan(first, second){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(isGreaterThan(1, 3));
@@ -102,6 +105,7 @@ function mustBeTrue(boo){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(mustBeTrue(true));
@@ -121,6 +125,7 @@ function bigBird(word){
   if (word.length === 3){
     food = "Word to Big Bird!";
   }
+  return food;
 }
 
 console.log(bigBird('dog'));
@@ -144,9 +149,10 @@ function isEqual(first, second){
   } else {
     food = "I don't know who you are anymore.";
   }
+  return food;
 }
 
-console.log(isEqual('mahvel', 'marvel'));
+console.log(isEqual('marvel', 'marvel'));
 
 /*
  * #7
@@ -167,6 +173,7 @@ function notEqual(first, second){
   } else {
     food = "Cause it's like you're my mirror."
   }
+  return food;
 }
 
 console.log(notEqual('cat', 'dog'));
@@ -189,6 +196,7 @@ function spareChange(money){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(spareChange(101));
@@ -212,6 +220,7 @@ function dirty30(one, two, three){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(dirty30(10, 10, 10));
@@ -234,6 +243,7 @@ function evenStevens(num){
   } else {
     food = false;
   }
+  return food;
 }
 
 console.log(evenStevens(6));
@@ -258,6 +268,7 @@ function daClub(cover, age){
   } else {
     food = "Chuck E Cheese is across the street.";
   }
+  return food;
 }
 
 console.log(daClub(21, 26));
@@ -281,6 +292,7 @@ function graduation(credits, grades){
   } else {
     food = "See you in summer school.";
   }
+  return food;
 }
 
 console.log(graduation(75, 2.5));
@@ -305,6 +317,7 @@ function moneyTrain(speed){
   } else {
     food = "Now you ballin' in the Shinkansen!";
   }
+  return food;
 }
 
 console.log(moneyTrain(101));
@@ -436,6 +449,7 @@ function sumItUp(arr){
     total += arr[i];
   }
   food = total;
+  return food;
 }
 
 console.log(sumItUp(numArray));
@@ -453,9 +467,10 @@ console.log(sumItUp(numArray));
 */ 
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+
+var east = [];
+var west = [];
 function allStars(ballers){
-  var east = [];
-  var west = [];
   for(var i = 0; i < ballers.length; i++){
     if(i % 2 === 0){
       east.push(ballers[i]);
@@ -463,10 +478,9 @@ function allStars(ballers){
       west.push(ballers[i]);
     }
   }
-  console.log(east);
-  console.log(west);
+  return 'East: ' + east + '\nWest: ' + west;
 }
-
+console.log(allStars(players));
 /*
  * #19
  * Function - subways
@@ -486,8 +500,10 @@ function subways(special){
       special[i] = 'Classic Tuna';
     }
   }
-  console.log(special);
+  return special;
 }
+
+console.log(subways(subOftheDay));
 
 
 /*
@@ -510,10 +526,11 @@ function removeLetter(str){
       newStr += str[i];
     }
   }
-  console.log(newStr);
+  return newStr;
 }
 
-  
+console.log(removeLetter(phrase));
+
 
 
 
