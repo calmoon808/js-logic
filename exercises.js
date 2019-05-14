@@ -4,7 +4,7 @@ If statements - Evaluates (or checks) a condition. If the condition is true, any
 /*var today = new Date();
 
 if(today === "Friday"){
-  return "Let's Party!";
+  food = "Let's Party!";
 };*/
 
 /*
@@ -12,9 +12,9 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
 */
 
 /*if(today === "Friday"){
-  return "Let's Party!";
+  food = "Let's Party!";
 }else{
-  return "Get back to coding!";
+  food = "Get back to coding!";
 };*/
 
 
@@ -24,16 +24,16 @@ If/else statements = Evaluates (or checks) a condition. If the condition is true
  * Create a function named `canVote` which will take a parameter: `age`.
  *
  *  @param Datatype: Number `age`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
+ * The function will food = true if the number passed into the function is equal to or greater than Hawaii's voting age. Console.log your result.
 */
 
 function canVote(age){
   if(age >= 18){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -45,17 +45,17 @@ console.log(canVote(19));
  * Create a function named `login` which will take a parameter: `password`.
  *
  *  @param Datatype: String `password`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * The function will return the message: "Login Success!", if the string passed into the function is "test1234"
+ * The function will food = the message: "Login Success!", if the string passed into the function is "test1234"
  * Console.log your result.
 */
 
 function login(password){
   if(password === 'test1234'){
-    return "login success!";
+    food = "login success!";
   } else {
-    return "login unsuccessful.";
+    food = "login unsuccessful.";
   }
 }
 
@@ -68,17 +68,17 @@ console.log(login('test1234'));
  *
  *  @param Datatype: Number `first`
  *  @param Datatype: Number `second`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the first number is greater than the second.
+ * The function will food = true if the first number is greater than the second.
  * Console.log your result.
 */
 
 function isGreaterThan(first, second){
   if (first > second){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -90,17 +90,17 @@ console.log(isGreaterThan(1, 3));
  * Create a function named `mustBeTrue` which will take a parameter: `boo`.
  *
  *  @param Datatype: Boolean `boo`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the value passed into the function is "true".
+ * The function will food = true if the value passed into the function is "true".
  * Console.log your result.
 */
 
 function mustBeTrue(boo){
   if(boo === true){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -111,15 +111,15 @@ console.log(mustBeTrue(true));
  * Create a function named `bigBird` which will take a parameter: `word`.
  *
  *  @param Datatype: String `word`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * The function will return the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
+ * The function will food = the message "Word to Big Bird!", if the string passed into the function is a three-letter word. 
  * Console.log your result.
 */
 
 function bigBird(word){
   if (word.length === 3){
-    return "Word to Big Bird!";
+    food = "Word to Big Bird!";
   }
 }
 
@@ -132,17 +132,17 @@ console.log(bigBird('dog'));
  *
  *  @param Datatype: String `first`
  *  @param Datatype: String `second`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * If the strings are equal, the function will return the message "You look mahvelous!" Otherwise, return the message: "I don't know who you are anymore." 
+ * If the strings are equal, the function will food = the message "You look mahvelous!" Otherwise, food = the message: "I don't know who you are anymore." 
  * Console.log your result.
 */
 
 function isEqual(first, second){
   if(first === second){
-    return "you look mahvelous!";
+    food = "you look mahvelous!";
   } else {
-    return "I don't know who you are anymore.";
+    food = "I don't know who you are anymore.";
   }
 }
 
@@ -155,17 +155,17 @@ console.log(isEqual('mahvel', 'marvel'));
  *
  *  @param Datatype: String `first`
  *  @param Datatype: String `second`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * If the strings are not equal, the function will return the message "Opposites do attract." Otherwise, return the message: "Cause it's like you're my mirror." 
+ * If the strings are not equal, the function will food = the message "Opposites do attract." Otherwise, food = the message: "Cause it's like you're my mirror." 
  * Console.log your result.
 */
 
 function notEqual(first, second){
   if(first !== second){
-    return "Opposites do attract."
+    food = "Opposites do attract."
   } else {
-    return "Cause it's like you're my mirror."
+    food = "Cause it's like you're my mirror."
   }
 }
 
@@ -177,17 +177,17 @@ console.log(notEqual('cat', 'dog'));
  * Create a function named `spareChange` which takes a parameter: `money`.
  *
  *  @param Datatype: Number `money`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the number passed into the function is greater than 100, otherwise it will return false.
+ * The function will food = true if the number passed into the function is greater than 100, otherwise it will food = false.
  * Console.log your result.
 */ 
 
 function spareChange(money){
   if(money > 100){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -200,17 +200,17 @@ console.log(spareChange(101));
  *  @param Datatype: Number `one`
  *  @param Datatype: Number `two`
  *  @param Datatype: Number `three`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the sum of all the number values is greater than 30, otherwise it will return false.
+ * The function will food = true if the sum of all the number values is greater than 30, otherwise it will food = false.
  * Console.log your result.
 */ 
 
 function dirty30(one, two, three){
   if(one + two + three > 30){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -222,17 +222,17 @@ console.log(dirty30(10, 10, 10));
  * Create a function named `evenStevens` which takes a parameter: `num`.
  *
  *  @param Datatype: Number `num`
- *  @return Datatype: Boolean
+ *  @food = Datatype: Boolean
  *
- * The function will return true if the number passed in is an even integer, otherwise it will return false.
+ * The function will food = true if the number passed in is an even integer, otherwise it will food = false.
  * Console.log your result.
 */ 
 
 function evenStevens(num){
   if(num % 2 === 0){
-    return true;
+    food = true;
   } else {
-    return false;
+    food = false;
   }
 }
 
@@ -246,17 +246,17 @@ console.log(evenStevens(6));
  *
  *  @param Datatype: Number `cover`
  *  @param Datatype: Number `age`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * If BOTH values are 21 or over, the function will return the message: "Welcome to the Legends Lounge." Otherwise, it will return the message: "Chuck E Cheese is across the street."
+ * If BOTH values are 21 or over, the function will food = the message: "Welcome to the Legends Lounge." Otherwise, it will food = the message: "Chuck E Cheese is across the street."
  * Console.log your result.
 */ 
 
 function daClub(cover, age){
   if(cover >= 21 && age >= 21){
-    return "Welcome to the Legends Lounge.";
+    food = "Welcome to the Legends Lounge.";
   } else {
-    return "Chuck E Cheese is across the street.";
+    food = "Chuck E Cheese is across the street.";
   }
 }
 
@@ -269,17 +269,17 @@ console.log(daClub(21, 26));
  *
  *  @param Datatype: Number `credits`
  *  @param Datatype: Number `grades`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will return the message: "Congratulations on a job well done." Otherwise, return the message: "See you in summer school."
+ * If EITHER the credits value is greater than or equal to 120 or the grades value is greater than or equal to 2.0, then the function will food = the message: "Congratulations on a job well done." Otherwise, food = the message: "See you in summer school."
  * Console.log your result.
 */ 
 
 function graduation(credits, grades){
   if(credits >= 120 || grades >= 2.0){
-    return "Congratulations on a job well dobe.";
+    food = "Congratulations on a job well dobe.";
   } else {
-    return "See you in summer school.";
+    food = "See you in summer school.";
   }
 }
 
@@ -291,19 +291,19 @@ console.log(graduation(75, 2.5));
  * Create a function named `moneyTrain` which takes a parameter: `speed`.
  *
  *  @param Datatype: Number `speed`
- *  @return Datatype: String
+ *  @food = Datatype: String
  *
- * The function will return the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will return the message: "You are riding an Amtrak.", if the number value is less than 100, and return the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
+ * The function will food = the message: "You are riding Honolulu's Rail.", if the number value is less than 50, otherwise it will food = the message: "You are riding an Amtrak.", if the number value is less than 100, and food = the message: "Now you ballin' in the Shinkansen!", if the number value is greater than or equal to 100.
  * Console.log your result.
 */ 
 
 function moneyTrain(speed){
   if(speed < 50){
-    return "You are riding Honolulu's Rail.";
+    food = "You are riding Honolulu's Rail.";
   } else if(speed < 100){
-    return "You are riding an Amtrak";
+    food = "You are riding an Amtrak";
   } else {
-    return "Now you ballin' in the Shinkansen!";
+    food = "Now you ballin' in the Shinkansen!";
   }
 }
 
@@ -345,22 +345,31 @@ console.log(budget, doughnutBought);
 Inside the function, create a switch statement that will check the daily specials of your favorite restaurant (or make up your own daily specials for each day of the week.*/
 
 function dailySpecials(special){
+  var food = '';
   switch(special){
     case 'Sunday':
-      return "Loco Moco";
+      food = "Loco Moco";
+      break;
     case 'Monday':
-      return "Pork Adobo";
+      food = "Pork Adobo";
+      break;
     case 'Tuesday':
-      return "Korean Fried Chicken";
+      food = "Korean Fried Chicken";
+      break;
     case 'Wednesday':
-      return "pho";
+      food = "pho";
+      break;
     case 'Thursday':
-      return "Tacos";
+      food = "Tacos";
+      break;
     case 'Friday':
-      return "Fried Rice";
+      food = "Fried Rice";
+      break;
     case 'Saturday':
-      return "Oxtail Soup";
+      food = "Oxtail Soup";
+      break;
   }
+  return food;
 }
 
 console.log(dailySpecials('Saturday'));
@@ -414,9 +423,9 @@ for(var i = 0; i < myFavFoods.length; i++){
  * Create a function named sumItUp which takes a parameter: `arr`.
  * 
  *   @param Datatype: Array `arr`
- *   @return Datatype: Number
+ *   @food = Datatype: Number
  * 
- * The function will loop through and add up all the values in the array that is passed into the function and return the total.
+ * The function will loop through and add up all the values in the array that is passed into the function and food = the total.
  * Console.log your result.
 */
 
@@ -426,7 +435,7 @@ function sumItUp(arr){
   for(var i = 0; i < arr.length; i++){
     total += arr[i];
   }
-  return total;
+  food = total;
 }
 
 console.log(sumItUp(numArray));
@@ -437,7 +446,7 @@ console.log(sumItUp(numArray));
  * Create a function named `allStars` which takes a parameter: `ballers`.
  *
  *  @param Datatype: Array `ballers`
- *  @return Datatype: Array
+ *  @food = Datatype: Array
  *
  * The function will loop through the players array and will put all the even number indexed players in the `east` array and the rest in the `west` array.
  * Console.log both the east and west arrays.
@@ -464,7 +473,7 @@ function allStars(ballers){
  * Create a function named `subways` which takes a parameter: `special`.
  *
  *  @param Datatype: Array `special`
- *  @return Datatype: Array
+ *  @food = Datatype: Array
  *
  * The function will loop through the array value and replace all the odd numbered indexed items with "Classic Tuna".
  * Console.log your results.
@@ -488,7 +497,7 @@ Final Boss
  * Create a function named `removeLetter`, which takes a parameter `str`. 
  *
  *   @param Datatype: String `str`
- *   @return Datatype: Array
+ *   @food = Datatype: Array
  *
  *  The function will loop through the string value and put all the letters into an array, except for the letter "A" and "a". We don't want no stinking "A" or "a" in our array. Test your function with the `phrase` below!
 */
